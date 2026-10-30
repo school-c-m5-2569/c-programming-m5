@@ -1,0 +1,18 @@
+site_name: การเขียนโปรแกรมภาษา C ม.5
+theme:
+  name: material
+  language: th
+  palette:
+    primary: indigo
+  features:
+    - content.code.copy
+    - navigation.sections
+nav:
+  - หน้าแรก: index.md
+  - หน่วยที่ 1 รู้จักภาษา C:
+      - เนื้อหา: unit01/lesson.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
